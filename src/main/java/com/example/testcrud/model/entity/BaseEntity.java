@@ -1,4 +1,4 @@
-package com.example.testcrud.model;
+package com.example.testcrud.model.entity;
 
 
 import jakarta.persistence.*;

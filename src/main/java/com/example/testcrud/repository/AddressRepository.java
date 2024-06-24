@@ -1,6 +1,6 @@
 package com.example.testcrud.repository;
 
-import com.example.testcrud.model.Address;
+import com.example.testcrud.model.entity.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,4 +1,4 @@
-package com.example.testcrud.controller.dto;
+package com.example.testcrud.model.dto;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.example.testcrud.model;
+package com.example.testcrud.model.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -28,6 +28,6 @@ public class Person extends BaseEntity{
     @OneToOne
     private Person relatedPerson;
 
-    @OneToMany
+    @OneToMany(mappedBy = "person")
     private List<Address> addressList;
 }

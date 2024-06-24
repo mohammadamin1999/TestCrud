@@ -1,4 +1,5 @@
-package com.example.testcrud.controller.dto;
+package com.example.testcrud.model.dto;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetAddressDto {
-    private String text;
+public class UpdateAddressDto {
     private Long id;
+    private String text;
 }
